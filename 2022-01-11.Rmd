@@ -1,0 +1,18 @@
+---
+title: '2022-01-11 Bee Colony Loss'
+author: "Marie Bouffard"
+date: "2/13/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE)
+
+library(tidyverse)
+
+# Read in data
+tuesdata <- tidytuesdayR::tt_load('2022-01-11')
+colony <- tuesdata$colony
+
+```
+
