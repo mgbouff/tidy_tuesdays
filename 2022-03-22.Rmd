@@ -1,0 +1,17 @@
+---
+title: "2022-03-22 Baby Names"
+author: "Marie Bouffard"
+date: "4/5/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+library(tidyverse)
+
+# Read in data
+tuesdata <- tidytuesdayR::tt_load('2022-03-22')
+babynames <- tuesdata$babynames
+```
+

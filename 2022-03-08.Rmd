@@ -1,0 +1,39 @@
+---
+title: "2022-03-08 EU Student Mobility"
+author: "Marie Bouffard"
+date: "4/5/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+# Attach Packages
+library(tidyverse)
+
+# Read in data
+tuesdata <- tidytuesdayR::tt_load('2022-03-08')
+erasmus <- tuesdata$erasmus
+
+```
+
+### EU Student mobility
+The data this week comes from [Data.Europa](https://data.europa.eu/data/datasets?locale=en&catalog=eac&query=erasmus&page=1&sort=issued%2Bdesc,%20relevance%2Bdesc,%20title.en%2Basc) hattip to [Data is Plural](https://www.data-is-plural.com/archive/2022-02-09-edition/).
+
+Wimdu wrote a [short blog post](https://www.wimdu.co.uk/blog/discover-popular-erasmus-destinations) on the most popular ERASMUS destinations.
+
+The ERASMUS program: EU programme for education, training, youth and sport:
+
+Erasmus students are those that take advantage of the Erasmus exchange program, a well supported and organised scheme that has been in operation since the late 1980's. It allows for students to study at universities in the EU member states for set periods of time. Erasmus students study a wide variety of subjects but most use the program for advancing their language skills with a view to working in the international sphere, and it is advised that anyone interested seeks information on the Erasmus scheme online.
+
+The European Credit Transfer System means that academic credits you earn in your course while abroad will count towards your qualification.
+
+Similar mobility periods are aggregated where possible (same sending/receiving organisation, same status regrading fewer oppts, gender, age, …) in order to reduce file size. Mobility periods started in 2020 and 2021 will be published once they are finalised.
+
+### Where do students go?
+```{r}
+
+
+
+```
+
